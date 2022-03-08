@@ -28,33 +28,33 @@
 //   - Object
 //   - Array
 
-// // String
+// // String Data Type
 // const name = "Vishwas"; // Within Single-Quotes
 // const language = "JavaScript";
 // const channel = `Code Evolution`;
 
-// // Number
+// // Number Data Type
 // const total = 0;
 // const PI = 3.14;
 
-// // Boolean
+// // Boolean Data Type
 // const isPrimaryNumber = true;
 // const isNewUser = false;
 
-// // Undefined - Value not Assigned when a Variable is Declared
+// // Undefined Data Type - Value not Assigned when a Variable is Declared
 // let result;
 // console.log(result);
 
 // const res = undefined;
 // console.log(res);
 
-// // Null - Empty or Unknown Value
+// // Null Data Type - Empty or Unknown Value
 // const data = null;
 
-// // BigInt - Larger Integer Values
-// // Symbol - Unique & Unchangeable
+// // BigInt Data Type - Larger Integer Values
+// // Symbol Data Type - Unique & Unchangeable
 
-// // Object - Collection of Values (Complex Data Type) - Key can only be String or Symbol Data Type & Values can be of any Data Type
+// // Object Data Type - Collection of Values (Complex Data Type) - Key can only be String or Symbol Data Type & Values can be of any Data Type
 // const person = {
 //   firstName: "Bruce",
 //   lastName: "Wayne",
@@ -66,7 +66,7 @@
 // console.log(person.lastName);
 // console.log(person.age);
 
-// // Array
+// // Array Data Type
 // const oddNumbers = [1, 3, 5, 7, 9];
 // console.log(oddNumbers[0]);
 
@@ -83,11 +83,11 @@
 //   - String
 //   - Other
 
-// Assignment
+// Assignment Operator
 let x = 10;
 let y = 5;
 
-// Arithmatic
+// Arithmatic Operator
 console.log(x + y);
 console.log(x - y);
 console.log(x * y);
@@ -97,7 +97,7 @@ console.log(x % y);
 console.log(++x);
 console.log(--y);
 
-// Comparision
+// Comparision Operator
 console.log(x == y); // Compares the Values
 console.log(x != y);
 
@@ -109,7 +109,7 @@ console.log(x < y);
 console.log(x >= y);
 console.log(x <= y);
 
-// Logical
+// Logical Operator
 const isValidNumber = x > 20 && 8 > y;
 console.log(isValidNumber);
 
@@ -119,9 +119,9 @@ console.log(isValidNumber2);
 const isValid = true;
 console.log(!isValid);
 
-// String
+// String Operator
 console.log("Bruce " + "Wayne");
 
-// Ternary
+// Ternary Operator
 const isEven = 10 % 2 === 0 ? "No Remainder" : "Leaves Remainder";
 console.log(isEven);
