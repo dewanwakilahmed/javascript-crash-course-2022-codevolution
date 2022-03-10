@@ -159,27 +159,60 @@
 // console.log(Boolean(" "));
 // console.log(Boolean(NaN));
 
-// Equality
-const var1 = "test";
-const var2 = "test";
+// // Equality
+// const var1 = "test";
+// const var2 = "test";
 
-console.log(var1 == var2);
-console.log(var1 === var2);
+// console.log(var1 == var2);
+// console.log(var1 === var2);
 
-const var3 = 10;
-const var4 = "10";
+// const var3 = 10;
+// const var4 = "10";
 
-console.log(var3 == var4);
-console.log(var3 === var4);
+// console.log(var3 == var4);
+// console.log(var3 === var4);
 
-const var5 = 0;
-const var6 = "";
+// const var5 = 0;
+// const var6 = "";
 
-console.log(var5 == var6);
-console.log(var5 === var6);
+// console.log(var5 == var6);
+// console.log(var5 === var6);
 
-const var7 = null;
-const var8 = undefined;
+// const var7 = null;
+// const var8 = undefined;
 
-console.log(var7 == var8);
-console.log(var7 === var8);
+// console.log(var7 == var8);
+// console.log(var7 === var8);
+
+// Conditional Statements
+const num = 0;
+
+if (num > 0) {
+  console.log("Number is positive");
+} else {
+  console.log("Number is negative");
+}
+
+if (num > 0) {
+  console.log("Number is positive");
+} else if (num < 0) {
+  console.log("Number is negative");
+} else {
+  console.log("Number is zero");
+}
+
+const color = 10;
+
+switch (color) {
+  case "red":
+    console.log("Color is red");
+    break;
+  case "green":
+    console.log("Color is green");
+    break;
+  case "blue":
+    console.log("Color is blue");
+    break;
+  default:
+    console.log("Not a valid color");
+}
