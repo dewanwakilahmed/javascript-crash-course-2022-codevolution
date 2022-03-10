@@ -126,35 +126,60 @@
 // const isEven = 10 % 2 === 0 ? "No Remainder" : "Leaves Remainder";
 // console.log(isEven);
 
-// Type Conversions
+// // Type Conversions
 
-// - Implicit Conversion
-console.log(2 + "3");
-console.log(true + "3");
-console.log("4" - "2");
-console.log("Bruce" - "Wayne");
-console.log("5" - true);
-console.log("5" - false);
-console.log("5" - null);
-console.log("5" + undefined);
+// // - Implicit Conversion
+// console.log(2 + "3");
+// console.log(true + "3");
+// console.log("4" - "2");
+// console.log("Bruce" - "Wayne");
+// console.log("5" - true);
+// console.log("5" - false);
+// console.log("5" - null);
+// console.log("5" + undefined);
 
-// - Explicit Conversion
-console.log(Number("5"));
-console.log(Number(true));
-console.log(Number(false));
-console.log(Number(null));
-console.log(Number(""));
+// // - Explicit Conversion
+// console.log(Number("5"));
+// console.log(Number(true));
+// console.log(Number(false));
+// console.log(Number(null));
+// console.log(Number(""));
 
-console.log(parseInt("5"));
-console.log(parseFloat("3.14"));
-console.log(String(500));
-console.log(String(true));
-console.log(String(undefined));
-console.log((500).toString());
-console.log(Boolean(10));
-console.log(Boolean(0));
-console.log(Boolean(null));
-console.log(Boolean(undefined));
-console.log(Boolean(""));
-console.log(Boolean(" "));
-console.log(Boolean(NaN));
+// console.log(parseInt("5"));
+// console.log(parseFloat("3.14"));
+// console.log(String(500));
+// console.log(String(true));
+// console.log(String(undefined));
+// console.log((500).toString());
+// console.log(Boolean(10));
+// console.log(Boolean(0));
+// console.log(Boolean(null));
+// console.log(Boolean(undefined));
+// console.log(Boolean(""));
+// console.log(Boolean(" "));
+// console.log(Boolean(NaN));
+
+// Equality
+const var1 = "test";
+const var2 = "test";
+
+console.log(var1 == var2);
+console.log(var1 === var2);
+
+const var3 = 10;
+const var4 = "10";
+
+console.log(var3 == var4);
+console.log(var3 === var4);
+
+const var5 = 0;
+const var6 = "";
+
+console.log(var5 == var6);
+console.log(var5 === var6);
+
+const var7 = null;
+const var8 = undefined;
+
+console.log(var7 == var8);
+console.log(var7 === var8);
