@@ -83,45 +83,78 @@
 //   - String
 //   - Other
 
-// Assignment Operator
-let x = 10;
-let y = 5;
+// // Assignment Operator
+// let x = 10;
+// let y = 5;
 
-// Arithmatic Operator
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
+// // Arithmatic Operator
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
 
-console.log(++x);
-console.log(--y);
+// console.log(++x);
+// console.log(--y);
 
-// Comparision Operator
-console.log(x == y); // Compares the Values
-console.log(x != y);
+// // Comparision Operator
+// console.log(x == y); // Compares the Values
+// console.log(x != y);
 
-console.log(x === y); // Compares both the Values and the Data Types
-console.log(x !== y);
+// console.log(x === y); // Compares both the Values and the Data Types
+// console.log(x !== y);
 
-console.log(x > y);
-console.log(x < y);
-console.log(x >= y);
-console.log(x <= y);
+// console.log(x > y);
+// console.log(x < y);
+// console.log(x >= y);
+// console.log(x <= y);
 
-// Logical Operator
-const isValidNumber = x > 20 && 8 > y;
-console.log(isValidNumber);
+// // Logical Operator
+// const isValidNumber = x > 20 && 8 > y;
+// console.log(isValidNumber);
 
-const isValidNumber2 = x > 8 || 8 > y;
-console.log(isValidNumber2);
+// const isValidNumber2 = x > 8 || 8 > y;
+// console.log(isValidNumber2);
 
-const isValid = true;
-console.log(!isValid);
+// const isValid = true;
+// console.log(!isValid);
 
-// String Operator
-console.log("Bruce " + "Wayne");
+// // String Operator
+// console.log("Bruce " + "Wayne");
 
-// Ternary Operator
-const isEven = 10 % 2 === 0 ? "No Remainder" : "Leaves Remainder";
-console.log(isEven);
+// // Ternary Operator
+// const isEven = 10 % 2 === 0 ? "No Remainder" : "Leaves Remainder";
+// console.log(isEven);
+
+// Type Conversions
+
+// - Implicit Conversion
+console.log(2 + "3");
+console.log(true + "3");
+console.log("4" - "2");
+console.log("Bruce" - "Wayne");
+console.log("5" - true);
+console.log("5" - false);
+console.log("5" - null);
+console.log("5" + undefined);
+
+// - Explicit Conversion
+console.log(Number("5"));
+console.log(Number(true));
+console.log(Number(false));
+console.log(Number(null));
+console.log(Number(""));
+
+console.log(parseInt("5"));
+console.log(parseFloat("3.14"));
+console.log(String(500));
+console.log(String(true));
+console.log(String(undefined));
+console.log((500).toString());
+console.log(Boolean(10));
+console.log(Boolean(0));
+console.log(Boolean(null));
+console.log(Boolean(undefined));
+console.log(Boolean(""));
+console.log(Boolean(" "));
+console.log(Boolean(NaN));
