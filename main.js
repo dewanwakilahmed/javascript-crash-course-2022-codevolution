@@ -250,33 +250,57 @@
 // }
 
 // FUNCTIONS
-function greet() {
-  console.log("Good morning Vishwas");
+// function greet() {
+//   console.log("Good morning Vishwas");
+// }
+
+// greet();
+// greet();
+
+// function greetWithName(username) {
+//   console.log("Good morning " + username);
+// }
+
+// greetWithName("Bruce");
+// greetWithName("Clark");
+// greetWithName("Diana");
+
+// function add(a, b) {
+//   return a + b;
+// }
+
+// const sum = add(5, 10);
+// console.log(sum);
+
+// const arrowSum = (a, b) => {
+//   return a + b;
+// };
+
+// // const arrowSum = (a, b) => a + b;
+
+// const sum2 = arrowSum(5, 10);
+// console.log(sum2);
+
+// SCOPE
+// - Block Scope
+// - Function Scope
+// - Global Scope
+
+const myNum = 100;
+const myName = "Superman"; // Won't overwrite block or function scoped variables
+
+if (true) {
+  const myName = "Vishwas";
+  console.log(myName);
+  console.log(myNum);
 }
+// console.log(myName); // Can't access
 
-greet();
-greet();
-
-function greetWithName(username) {
-  console.log("Good morning " + username);
+function testFn() {
+  const myName = "Batman";
+  console.log(myName);
+  console.log(myNum);
 }
+// console.log(myName); // Can't access
 
-greetWithName("Bruce");
-greetWithName("Clark");
-greetWithName("Diana");
-
-function add(a, b) {
-  return a + b;
-}
-
-const sum = add(5, 10);
-console.log(sum);
-
-const arrowSum = (a, b) => {
-  return a + b;
-};
-
-// const arrowSum = (a, b) => a + b;
-
-const sum2 = arrowSum(5, 10);
-console.log(sum2);
+testFn();
