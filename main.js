@@ -217,34 +217,66 @@
 //     console.log("Not a valid color");
 // }
 
-// LOOPING CODE
-// - For Loop
-// - While Loop
-// - Do While Loop
-// - For Of Loop
+// // LOOPING CODE
+// // - For Loop
+// // - While Loop
+// // - Do While Loop
+// // - For Of Loop
 
-// For Loop
-for (let i = 1; i <= 5; i++) {
-  console.log("Iteration number " + i);
+// // For Loop
+// for (let i = 1; i <= 5; i++) {
+//   console.log("Iteration number " + i);
+// }
+
+// // While Loop
+// let j = 1;
+// while (j <= 5) {
+//   console.log("Iteration number " + j);
+//   j++;
+// }
+
+// // Do While Loop - runs at least once
+// let k = 6;
+// do {
+//   console.log("Iteration number " + k);
+//   k++;
+// } while (k <= 5);
+
+// // For Of Loop - loop through a collection of data like an array
+// const numArray = [1, 2, 3, 4, 5];
+
+// for (const num of numArray) {
+//   console.log("Iteration number " + num);
+// }
+
+// FUNCTIONS
+function greet() {
+  console.log("Good morning Vishwas");
 }
 
-// While Loop
-let j = 1;
-while (j <= 5) {
-  console.log("Iteration number " + j);
-  j++;
+greet();
+greet();
+
+function greetWithName(username) {
+  console.log("Good morning " + username);
 }
 
-// Do While Loop - runs at least once
-let k = 6;
-do {
-  console.log("Iteration number " + k);
-  k++;
-} while (k <= 5);
+greetWithName("Bruce");
+greetWithName("Clark");
+greetWithName("Diana");
 
-// For Of Loop - loop through a collection of data like an array
-const numArray = [1, 2, 3, 4, 5];
-
-for (const num of numArray) {
-  console.log("Iteration number " + num);
+function add(a, b) {
+  return a + b;
 }
+
+const sum = add(5, 10);
+console.log(sum);
+
+const arrowSum = (a, b) => {
+  return a + b;
+};
+
+// const arrowSum = (a, b) => a + b;
+
+const sum2 = arrowSum(5, 10);
+console.log(sum2);
