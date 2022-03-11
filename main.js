@@ -184,35 +184,67 @@
 // console.log(var7 == var8);
 // console.log(var7 === var8);
 
-// Conditional Statements
-const num = 0;
+// // Conditional Statements
+// const num = 0;
 
-if (num > 0) {
-  console.log("Number is positive");
-} else {
-  console.log("Number is negative");
+// if (num > 0) {
+//   console.log("Number is positive");
+// } else {
+//   console.log("Number is negative");
+// }
+
+// if (num > 0) {
+//   console.log("Number is positive");
+// } else if (num < 0) {
+//   console.log("Number is negative");
+// } else {
+//   console.log("Number is zero");
+// }
+
+// const color = 10;
+
+// switch (color) {
+//   case "red":
+//     console.log("Color is red");
+//     break;
+//   case "green":
+//     console.log("Color is green");
+//     break;
+//   case "blue":
+//     console.log("Color is blue");
+//     break;
+//   default:
+//     console.log("Not a valid color");
+// }
+
+// LOOPING CODE
+// - For Loop
+// - While Loop
+// - Do While Loop
+// - For Of Loop
+
+// For Loop
+for (let i = 1; i <= 5; i++) {
+  console.log("Iteration number " + i);
 }
 
-if (num > 0) {
-  console.log("Number is positive");
-} else if (num < 0) {
-  console.log("Number is negative");
-} else {
-  console.log("Number is zero");
+// While Loop
+let j = 1;
+while (j <= 5) {
+  console.log("Iteration number " + j);
+  j++;
 }
 
-const color = 10;
+// Do While Loop - runs at least once
+let k = 6;
+do {
+  console.log("Iteration number " + k);
+  k++;
+} while (k <= 5);
 
-switch (color) {
-  case "red":
-    console.log("Color is red");
-    break;
-  case "green":
-    console.log("Color is green");
-    break;
-  case "blue":
-    console.log("Color is blue");
-    break;
-  default:
-    console.log("Not a valid color");
+// For Of Loop - loop through a collection of data like an array
+const numArray = [1, 2, 3, 4, 5];
+
+for (const num of numArray) {
+  console.log("Iteration number " + num);
 }
